@@ -48,7 +48,7 @@ start() {
     return String(value).padStart(2, '0');
   }
 }
-const timer = new CountdownTimer({selector: '#timer-1', targetDate: new Date('Feb 12, 2021')});
+const timer = new CountdownTimer({selector: '#timer-1', targetDate: new Date('Mar 01, 2021')});
 timer.start.call(timer);
 
 
